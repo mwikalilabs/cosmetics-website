@@ -1,0 +1,18 @@
+body {
+  background-image: url("assets/Skincare\ you\'ll\ love!.jpg");
+/* This prevents the image from repeating/splitting */
+    background-repeat: no-repeat;
+    
+    /* This centers the image */
+    background-position: center;
+    
+    /* This makes the image cover the entire screen */
+    background-size: cover;
+    
+    /* This keeps the background fixed so it doesn't scroll with the page */
+    background-attachment: fixed;
+    
+    /* Optional: ensures the body takes up at least the full height of the screen */
+    min-height: 100vh;
+
+}
